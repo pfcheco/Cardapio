@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/*Tira as MARGENS e o PADDING de toda a pagina
+(é mais facil para manipular)*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Faz com que todas as rolagens da página sejam suaves, 
+em vez de “pularem” diretamente para o ponto final. */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Muda a fonte dos navegadores */
+a {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+    background-color: #ffffff;
+}
+
+#logo-aconfraria-header{
+    width: 160px;
+    height: 160px;
+    margin-left: 200px;
+}
+.navegadores{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 350px;
+}
+
+#box {
+  padding: 20px;
+  margin: 10px;
+  text-align: center; /* Centraliza o texto DENTRO de cada box */
+}
+
+.cabecalho-aconfraria{
+    display: flex;
+    flex-direction: row; /* mantém imagem + texto lado a lado */
+    align-items: center;
+}
+
+a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#imagem-copocerveja-sobrenos{
+    display: flex;
+    padding: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+/*Sobre Nos*/
+
+.sobrenos{
+    padding: 2em;
+    display: flex;
+    flex-direction: row; /* mantém imagem + texto lado a lado */
+    margin-bottom: 6em;
+    margin-top: 8em
+}
+
+#sobrenos2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 500px;
+    margin-top: 200px;
+    margin-right: 90px;
+}
+
+#imagemsobrenos{
+    margin-right: 500px;    
+    position: relative;
+    display: inline-block;
+}
+
+#imagemdoquibe{
+    width: 334px;
+    height: 649px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+#imagemdodrink{
+    position: absolute;
+    width: 334px;
+    height: 349px;
+    left: 200px;
+    bottom: 10px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+#cabecalho-sobrenos{
+    color: rgb(172, 172, 173);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#titulo-aconfraria{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#textotexto-sobrenos{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(172, 172, 173);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+/*Apresentacao - Cardapio*/
+
+.sobrecardapio-p{
+    padding: 2em;
+    display: flex;
+    flex-direction: row-reverse; 
+    margin-bottom: 6em;
+    margin-top: 8em
+}
+
+.sobrecardapio{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 500px;
+    margin-top: 200px;
+    margin-right: 220px;
+}
+
+#imagenscardapio{  
+    left: 250px;
+    position: relative;
+    display: inline-block;
+}
+
+#imagemdegratinado{
+    width: 421px;
+    height: 428px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+#imagemdodrink2{
+    position: relative;
+    width: 310px;
+    height: 313px;
+    left: 200px;
+    bottom: 90px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+#titulosobrecardapio{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#textocardapio{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(172, 172, 173);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+/*Cardapio*/
+
+#cabecalho-cardapio{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+}
+
+#cabecalho2-cardapio{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    margin-bottom: 30px;
+    color: rgb(156, 156, 156);
+}
+
+#cardapio{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+#imagemdocardapio{
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+/*Localizacao*/
+
+#cabecalho-localizacao{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+
+}
+
+.loc-aconfraria{
+    width: 1250px; /* Largura relativa, se desejar */
+    height: 300px; /* Altura fixa em pixels */
+    margin-left: auto; /* Margem esquerda automática */
+    margin-right: auto; /* Margem direita automática */
+    display: block; /* Garante que funcione como um bloco */
+}
+
+.loc-aconfraria iframe{
+    width: 100%; /* Faz o iframe preencher 100% da largura do contêiner */
+    height: 100%; /* Faz o iframe preencher 100% da altura do contêiner */
+}
+
+#cabecalho2-localizacao{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    color: rgb(156, 156, 156);
+    margin-bottom: 20px;
+}
+
+#imagem-loc{
+    text-align: center;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+    margin-bottom: 40px;
+}
+/* Footer */
+
+#jerimum{
+    width: 600px;
+    height: 200px;
+    
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#funcionamento{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: normal;
+    color: rgb(92, 91, 91);
+}
+
+#contatos{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: normal;
+    color: rgb(92, 91, 91);
+}
+
+#contatos #item{
+    display: flex;
+    flex-direction: row; /* mantém imagem + texto lado a lado */
+    align-items: center;
+    gap: 0.5em;
+}
+
+#copyright{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: normal;
+    color: rgb(92, 91, 91);
+    margin-bottom: 30px; 
+}
